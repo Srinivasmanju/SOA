@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs32\lang9 Test cases for Facebook--\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\fs22 Verify the first name and last name while creating the account\par
+{\pntext\f0 2.\tab}Verify the valid mobile number and mobile number must contain 10 numbers with country code\par
+{\pntext\f0 3.\tab}Mobile number must be numeric and not contain texts, special characters\par
+{\pntext\f0 4.\tab}Verify the password that must be min 8 characters\par
+{\pntext\f0 5.\tab}Verify the password that must contain upper and lower case text, numbers and special characters\par
+{\pntext\f0 6.\tab}Verify the email that must be valid\par
+{\pntext\f0 7.\tab}Verify that the user is able to login by entering valid credentials and clicking on the \lquote Login\rquote  button.\par
+{\pntext\f0 8.\tab}Verify the forgot password option in login page and it must send the forgot password link to the valid email id\par
+{\pntext\f0 9.\tab}Verify that user can set profile pic and cover pic uploaded from mobile\par
+{\pntext\f0 10.\tab}Verify that user can add/edit their account information displayed to other users\par
+{\pntext\f0 11.\tab}Verify that users can post text and image in their timeline and the same gets displyed to their friends\par
+{\pntext\f0 12.\tab}Verify that user can tag friends in their posts\par
+{\pntext\f0 13.\tab}Verify that users can post comments, like and react to the posts present in their timeline\par
+{\pntext\f0 14.\tab}Verify that the user can search for friends in facebook\rquote s \lquote Find friends\rquote  search functionality\par
+{\pntext\f0 15.\tab}Verify that user can send stickers and emojis in comments section\par
+{\pntext\f0 16.\tab}Verify that user can add or delete stories in in the home page\par
+{\pntext\f0 17.\tab}Verify that users can see comments, likes, and reactions in the posts present in their friend\rquote s timeline.\par
+{\pntext\f0 18.\tab}Verify that locked profile should not be visible to others\par
+{\pntext\f0 19.\tab}Verify that users receive a notification when they get a friend request, when someone posts on their timeline and when they get comments, like or reactions on their posts.\par
+{\pntext\f0 20.\tab}Verify that the user can unfriend any existing friend\par
+
+\pard\sa200\sl276\slmult1\fs32\par
+\fs22\par
+}
+
+
+https://ws.footballpool.dataaccess.eu/info.wso?WSDL
+
+<result>
+<name>
+{
+data(//m:AllPlayerNamesResponse/m:AllPlayerNamesResult/m:tPlayerName[2]/m:sName/text())
+}
+</name>
+</result>
